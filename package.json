@@ -1,0 +1,24 @@
+{
+  "name": "waifu2hd-pdjs",
+  "version": "1.0.0",
+  "description": "Run waifu2hd on browser webgl using paddle.js",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "paddlejs": "1.0.3",
+    "vue": "2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1",
+    "parcel-plugin-static-files-copy": "2.4.3"
+  },
+  "keywords": [],
+  "staticFiles": {
+    "staticPath": "src/public",
+    "watcherGlob": "**"
+  }
+}
